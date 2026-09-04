@@ -1,0 +1,6 @@
+{
+  "name": "The Berean Workspace",
+  "description": "A desktop-first Bible study workspace with synchronized parallel translations, Strong's concordance, commentaries, and cross-references.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
