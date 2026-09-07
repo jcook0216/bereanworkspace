@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<style>
+  body { margin:0; background:#08080a; color:#e2e8f0; font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+  a { color:#f59e0b; text-decoration:none; }
+  a:hover { color:#fbbf24; }
+  .sx { font-size:0.65em; vertical-align:super; line-height:0; margin-left:2px; }
+  ::-webkit-scrollbar { width:5px; height:5px; }
+  ::-webkit-scrollbar-track { background:transparent; }
+  ::-webkit-scrollbar-thumb { background:#27272a; border-radius:9999px; }
+</style>
+</helmet>
+
+<section style="display:flex; flex-direction:column; gap:36px; padding:40px 40px 8px">
+
+  <div style="display:flex; flex-direction:column; gap:14px">
+    <div style="display:flex; align-items:baseline; gap:14px">
+      <span style="font-size:11px; font-weight:700; letter-spacing:.14em; color:#0a0a0b; background:#f59e0b; padding:4px 8px; border-radius:5px">2A</span>
+      <h2 style="margin:0; font-size:20px; font-weight:600; color:#f1f5f9">Strong's tab — fixed states</h2>
+      <span style="font-size:12px; color:#64748b">Recreated from <span style="font-family:ui-monospace,monospace">StudyPane.tsx</span> (strongs tab) · lexicon values are sample rows from an installed module</span>
+    </div>
+
+    <div id="2a" style="display:flex; flex-direction:column; gap:14px; background:#0F0F12; border:1px solid #1e293b; border-radius:10px; padding:16px">
+      <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:4px; max-width:384px">
+        <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="book-open" style="width:14px;height:14px;color:#f59e0b"></i><span>Exposition</span></button>
+        <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:600; background:rgba(30,41,59,.9); color:#f59e0b; border:1px solid #334155; cursor:pointer"><i data-lucide="languages" style="width:14px;height:14px;color:#60a5fa"></i><span>Strong's</span></button>
+        <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="git-fork" style="width:14px;height:14px;color:#c084fc"></i><span>TSK Refs</span></button>
+        <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="pen-square" style="width:14px;height:14px;color:#34d399"></i><span>Notebook</span></button>
+      </div>
+
+      <div style="display:flex; gap:16px; align-items:flex-start; width:max-content">
+
+        <div style="width:384px; flex-shrink:0; display:flex; flex-direction:column; gap:8px">
+          <span style="font-size:11px; font-family:ui-monospace,monospace; color:#6ee7b7">i · badge clicked, entry found</span>
+          <div style="border:1px solid #1e293b; border-radius:10px; background:#0F0F12; overflow:hidden">
+            <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b">
+              <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif">Focus: Ruth 1:1</span>
+            </div>
+            <div style="padding:16px; display:flex; flex-direction:column; gap:16px">
+              <div style="padding:16px; border-radius:12px; border:1px solid #1e293b; background:rgba(15,23,42,.6); display:flex; flex-direction:column; gap:12px">
+                <div style="display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #1e293b; padding-bottom:8px">
+                  <span style="font-size:12px; font-family:ui-monospace,monospace; font-weight:700; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.2); padding:2px 8px; border-radius:4px">Strong's #H8199</span>
+                  <span style="font-size:12px; font-weight:500; color:#94a3b8">203 occurrences</span>
+                </div>
+                <div style="text-align:center; padding:12px 0; background:#020617; border-radius:8px; border:1px solid #1e293b">
+                  <div style="font-size:36px; font-family:'EB Garamond',serif; color:#f8fafc; font-weight:700; margin-bottom:4px; letter-spacing:.05em">שָׁפַט</div>
+                  <div style="font-size:14px; font-family:ui-monospace,monospace; color:#cbd5e1">Transliteration: <strong style="color:#fbbf24; font-weight:600">shaphat</strong></div>
+                  <div style="font-size:12px; color:#94a3b8; margin-top:2px; font-family:ui-monospace,monospace">Pronunciation: [shaw-fat']</div>
+                </div>
+                <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:8px">
+                  <div style="padding:10px; background:#020617; border-radius:8px; border:1px solid #1e293b">
+                    <span style="display:block; font-size:11px; color:#94a3b8; text-transform:uppercase; font-weight:600; letter-spacing:.06em">Part of Speech</span>
+                    <span style="font-size:14px; font-weight:500; color:#f1f5f9">Verb</span>
+                  </div>
+                  <div style="padding:10px; background:#020617; border-radius:8px; border:1px solid #1e293b">
+                    <span style="display:block; font-size:11px; color:#94a3b8; text-transform:uppercase; font-weight:600; letter-spacing:.06em">Derivation</span>
+                    <span style="font-size:14px; font-weight:500; color:#f1f5f9">a primitive root</span>
+                  </div>
+                </div>
+                <div style="padding:14px; background:#020617; border-radius:12px; border:1px solid #1e293b; display:flex; flex-direction:column; gap:6px">
+                  <span style="font-size:11px; font-weight:700; color:rgba(245,158,11,.9); text-transform:uppercase; letter-spacing:.06em">Exhaustive Concordance Definition:</span>
+                  <p style="margin:0; font-size:15px; line-height:1.65; color:#f1f5f9">to judge, govern, vindicate, punish; to act as law-giver, judge, or governor.</p>
+                </div>
+                <div style="padding:14px; background:#020617; border-radius:12px; border:1px solid #1e293b; display:flex; flex-direction:column; gap:6px">
+                  <span style="font-size:11px; font-weight:700; color:#94a3b8; text-transform:uppercase; letter-spacing:.06em">Canonical Translation Usages:</span>
+                  <p style="margin:0; font-size:14px; line-height:1.6; font-family:ui-monospace,monospace; color:#e2e8f0">judge, avenge, condemn, contend, defend, execute (judgment), plead, (give) sentence</p>
+                </div>
+              </div>
+              <div>
+                <h5 style="margin:0 0 8px; font-size:11px; font-weight:700; color:#cbd5e1; text-transform:uppercase; letter-spacing:.08em">Strong's terms in Ruth 1 <span style="font-weight:400; color:#64748b; text-transform:none; letter-spacing:0">— by frequency in this chapter</span></h5>
+                <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:6px">
+                  <sc-for list="{{ chapterTerms }}" as="t" hint-placeholder-count="6">
+                    <button style="padding:10px; border-radius:8px; border:1px solid #1e293b; background:rgba(15,23,42,.6); text-align:left; cursor:pointer">
+                      <div style="display:flex; align-items:center; justify-content:space-between">
+                        <span style="font-size:12px; font-weight:700; color:#f59e0b">{{ t.num }}</span>
+                        <span style="font-size:14px; font-family:'EB Garamond',serif; font-weight:600; color:#f1f5f9">{{ t.lemma }}</span>
+                      </div>
+                      <span style="display:block; font-size:12px; color:#cbd5e1; margin-top:2px">{{ t.translit }}</span>
+                      <span style="display:block; font-size:10px; font-family:ui-monospace,monospace; color:#64748b; margin-top:2px">{{ t.count }}× in this chapter</span>
+                    </button>
+                  </sc-for>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width:384px; flex-shrink:0; display:flex; flex-direction:column; gap:8px">
+          <span style="font-size:11px; font-family:ui-monospace,monospace; color:#fbbf24">ii · number not in the installed lexicon</span>
+          <div style="border:1px solid #1e293b; border-radius:10px; background:#0F0F12; overflow:hidden">
+            <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b">
+              <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif">Focus: Ruth 1:1</span>
+            </div>
+            <div style="padding:16px; display:flex; flex-direction:column; gap:16px">
+              <div style="padding:16px; border-radius:12px; border:1px solid #1e293b; background:rgba(2,6,23,.5); display:flex; flex-direction:column; gap:12px">
+                <div style="display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid #1e293b; padding-bottom:8px">
+                  <span style="font-size:12px; font-family:ui-monospace,monospace; font-weight:700; color:#94a3b8; background:#020617; border:1px solid #334155; padding:2px 8px; border-radius:4px">Strong's #H8675</span>
+                  <span style="font-size:10px; font-family:ui-monospace,monospace; color:#94a3b8; background:#020617; border:1px solid #334155; padding:3px 7px; border-radius:9999px">not found</span>
+                </div>
+                <div style="display:flex; gap:10px; align-items:flex-start">
+                  <i data-lucide="file-search" style="width:16px;height:16px;color:#64748b;flex-shrink:0;margin-top:2px"></i>
+                  <p style="margin:0; font-size:15px; line-height:1.6; color:#cbd5e1"><strong style="color:#f1f5f9; font-weight:600">H8675</strong> is not present in the installed lexicon. It is a Kethiv/Qere variant number; the installed edition indexes only the base numbering.</p>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap">
+                  <button style="display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); padding:5px 10px; border-radius:8px; cursor:pointer">Base number: H8199 <i data-lucide="arrow-right" style="width:13px;height:13px"></i></button>
+                  <span style="font-size:11px; font-family:ui-monospace,monospace; color:#64748b">lexicon: 8,674 H · 5,624 G</span>
+                </div>
+              </div>
+              <p style="margin:0; font-size:12px; color:#64748b; line-height:1.5">No lemma, definition, or occurrence count is shown, because none was read from the module.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="width:384px; flex-shrink:0; display:flex; flex-direction:column; gap:8px">
+          <span style="font-size:11px; font-family:ui-monospace,monospace; color:#f87171">iii · no tagged underlay for this chapter</span>
+          <div style="border:1px solid #1e293b; border-radius:10px; background:#0F0F12; overflow:hidden">
+            <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b">
+              <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif">Focus: Ruth 1:1</span>
+            </div>
+            <div style="padding:16px; display:flex; flex-direction:column; gap:16px">
+              <div style="padding:16px; border-radius:12px; border:1px dashed #334155; background:rgba(2,6,23,.5); display:flex; flex-direction:column; gap:12px">
+                <div style="display:flex; align-items:center; gap:8px">
+                  <i data-lucide="languages" style="width:16px;height:16px;color:#64748b"></i>
+                  <span style="font-size:13px; font-weight:700; color:#94a3b8">Strong's underlay not installed</span>
+                </div>
+                <p style="margin:0; font-size:15px; line-height:1.6; color:#94a3b8">Strong's numbers are read from a tagged KJV underlay aligned to the verse, not from the NASB text. Without it, no numbers can be shown for any translation.</p>
+                <div style="display:flex; align-items:center; gap:10px">
+                  <button style="display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#0a0a0b; background:#f59e0b; border:0; padding:6px 12px; border-radius:8px; cursor:pointer"><i data-lucide="download-cloud" style="width:14px;height:14px"></i>Install underlay</button>
+                  <span style="font-size:11px; font-family:ui-monospace,monospace; color:#64748b">36.1 MB · public domain</span>
+                </div>
+              </div>
+              <div style="padding:12px; border-radius:10px; border:1px solid #1e293b; background:rgba(15,23,42,.5); display:flex; flex-direction:column; gap:8px">
+                <span style="font-size:10px; font-weight:700; color:#64748b; text-transform:uppercase; letter-spacing:.1em">Corresponding scripture-pane state</span>
+                <div style="display:flex; align-items:center; gap:8px">
+                  <button style="padding:6px 8px; border-radius:8px; font-size:11px; font-family:ui-monospace,monospace; font-weight:700; background:#0f172a; color:#475569; border:1px solid #1e293b; cursor:not-allowed">H/G#</button>
+                  <span style="font-size:11px; color:#94a3b8; line-height:1.4">Toggle disabled, not silently inert — tooltip: “Strong's underlay not installed”.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:14px">
+    <div style="display:flex; align-items:baseline; gap:14px">
+      <span style="font-size:11px; font-weight:700; letter-spacing:.14em; color:#0a0a0b; background:#f59e0b; padding:4px 8px; border-radius:5px">2B</span>
+      <h2 style="margin:0; font-size:20px; font-weight:600; color:#f1f5f9">TSK Refs tab — fixed states</h2>
+      <span style="font-size:12px; color:#64748b">Invented “Theme” replaced by the source's own clause headings</span>
+    </div>
+
+    <div id="2b" style="display:flex; gap:16px; align-items:flex-start; width:max-content; background:#0F0F12; border:1px solid #1e293b; border-radius:10px; padding:16px">
+
+      <div style="width:384px; flex-shrink:0; display:flex; flex-direction:column; gap:8px">
+        <span style="font-size:11px; font-family:ui-monospace,monospace; color:#6ee7b7">i · references found</span>
+        <div style="border:1px solid #1e293b; border-radius:10px; background:#0F0F12; overflow:hidden">
+          <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b">
+            <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif">Focus: Ruth 1:1</span>
+          </div>
+          <div style="padding:16px; display:flex; flex-direction:column; gap:14px">
+            <div style="display:flex; align-items:center; justify-content:space-between; font-size:11px; font-weight:700; color:#cbd5e1; text-transform:uppercase; letter-spacing:.08em; padding-bottom:6px; border-bottom:1px solid rgba(30,41,59,.8)">
+              <span>Treasury of Scripture Knowledge (5)</span>
+              <span style="font-size:11px; color:#94a3b8; font-weight:400; text-transform:lowercase">cross-references</span>
+            </div>
+            <sc-for list="{{ tskGroups }}" as="g" hint-placeholder-count="2">
+              <div style="display:flex; flex-direction:column; gap:8px">
+                <div style="font-size:12px; font-family:'EB Garamond',serif; font-style:italic; color:#c084fc">“{{ g.clause }}”</div>
+                <sc-for list="{{ g.refs }}" as="r" hint-placeholder-count="2">
+                  <div style="padding:14px; border-radius:12px; border:1px solid #1e293b; background:rgba(15,23,42,.8); display:flex; flex-direction:column; gap:10px">
+                    <div style="display:flex; align-items:center; justify-content:space-between">
+                      <span style="font-size:13px; font-weight:700; color:#e9d5ff; background:rgba(88,28,135,.6); border:1px solid rgba(147,51,234,.5); padding:4px 10px; border-radius:6px">{{ r.ref }}</span>
+                      <button style="font-size:12px; font-weight:600; color:#d8b4fe; background:rgba(59,7,100,.6); border:1px solid rgba(107,33,168,.5); padding:4px 10px; border-radius:6px; display:flex; align-items:center; gap:6px; cursor:pointer">Jump <i data-lucide="external-link" style="width:14px;height:14px"></i></button>
+                    </div>
+                    <p style="margin:0; font-size:15px; line-height:1.65; color:#f1f5f9">“{{ r.text }}”</p>
+                  </div>
+                </sc-for>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+
+      <div style="width:384px; flex-shrink:0; display:flex; flex-direction:column; gap:8px">
+        <span style="font-size:11px; font-family:ui-monospace,monospace; color:#fbbf24">ii · verse has no references in TSK</span>
+        <div style="border:1px solid #1e293b; border-radius:10px; background:#0F0F12; overflow:hidden">
+          <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b">
+            <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif">Focus: Ruth 4:22</span>
+          </div>
+          <div style="padding:16px; display:flex; flex-direction:column; gap:14px">
+            <div style="display:flex; align-items:center; justify-content:space-between; font-size:11px; font-weight:700; color:#cbd5e1; text-transform:uppercase; letter-spacing:.08em; padding-bottom:6px; border-bottom:1px solid rgba(30,41,59,.8)">
+              <span>Treasury of Scripture Knowledge (0)</span>
+              <span style="font-size:11px; color:#94a3b8; font-weight:400; text-transform:lowercase">cross-references</span>
+            </div>
+            <div style="padding:16px; border-radius:12px; border:1px solid #1e293b; background:rgba(2,6,23,.5); display:flex; flex-direction:column; gap:10px">
+              <div style="display:flex; gap:10px; align-items:flex-start">
+                <i data-lucide="git-fork" style="width:16px;height:16px;color:#64748b;flex-shrink:0;margin-top:2px"></i>
+                <p style="margin:0; font-size:15px; line-height:1.6; color:#cbd5e1">No references at <strong style="color:#f1f5f9; font-weight:600">Ruth 4:22</strong>. The Treasury covers 31,102 verses but leaves genealogical and colophon verses unreferenced; this is the source's own silence, not a lookup failure.</p>
+              </div>
+              <button style="align-self:flex-start; font-size:12px; font-weight:600; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); padding:5px 10px; border-radius:8px; cursor:pointer; display:flex; align-items:center; gap:6px">Nearest referenced verse: Ruth 4:17 <i data-lucide="arrow-right" style="width:13px;height:13px"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="width:384px; flex-shrink:0; display:flex; flex-direction:column; gap:8px">
+        <span style="font-size:11px; font-family:ui-monospace,monospace; color:#f87171">iii · corpus not installed + popover suppressed</span>
+        <div style="border:1px solid #1e293b; border-radius:10px; background:#0F0F12; overflow:hidden">
+          <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b">
+            <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif">Focus: Ruth 1:1</span>
+          </div>
+          <div style="padding:16px; display:flex; flex-direction:column; gap:14px">
+            <div style="padding:16px; border-radius:12px; border:1px dashed #334155; background:rgba(2,6,23,.5); display:flex; flex-direction:column; gap:12px">
+              <div style="display:flex; align-items:center; gap:8px">
+                <i data-lucide="git-fork" style="width:16px;height:16px;color:#64748b"></i>
+                <span style="font-size:13px; font-weight:700; color:#94a3b8">Treasury of Scripture Knowledge not installed</span>
+              </div>
+              <p style="margin:0; font-size:15px; line-height:1.6; color:#94a3b8">No cross-references are shown in its place.</p>
+              <div style="display:flex; align-items:center; gap:10px">
+                <button style="display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#0a0a0b; background:#f59e0b; border:0; padding:6px 12px; border-radius:8px; cursor:pointer"><i data-lucide="download-cloud" style="width:14px;height:14px"></i>Install module</button>
+                <span style="font-size:11px; font-family:ui-monospace,monospace; color:#64748b">11.2 MB · public domain</span>
+              </div>
+            </div>
+            <div style="padding:12px; border-radius:10px; border:1px solid #1e293b; background:rgba(15,23,42,.5); display:flex; flex-direction:column; gap:8px">
+              <span style="font-size:10px; font-weight:700; color:#64748b; text-transform:uppercase; letter-spacing:.1em">Corresponding scripture-pane state</span>
+              <div style="display:flex; align-items:center; gap:10px">
+                <span style="display:inline-block; font-family:'Inter'; font-weight:700; font-size:12px; padding:2px 6px; border-radius:6px; background:#1e293b; color:#475569; border:1px solid #334155; cursor:default">1</span>
+                <span style="font-size:11px; color:#94a3b8; line-height:1.4">Verse number is not a button when the verse has no references — no popover, no hover affordance, default cursor.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex; flex-direction:column; gap:14px">
+    <div style="display:flex; align-items:baseline; gap:14px">
+      <span style="font-size:11px; font-weight:700; letter-spacing:.14em; color:#0a0a0b; background:#f59e0b; padding:4px 8px; border-radius:5px">2C</span>
+      <h2 style="margin:0; font-size:20px; font-weight:600; color:#f1f5f9">TSK popover — real references only</h2>
+      <span style="font-size:12px; color:#64748b">Recreated from <span style="font-family:ui-monospace,monospace">TskPopover.tsx</span></span>
+    </div>
+    <div id="2c" style="width:512px; background:#0F0F12; border-radius:12px; border:1px solid #1e293b; overflow:hidden; color:#e2e8f0">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:12px 16px; background:#0A0A0B; border-bottom:1px solid #1e293b">
+        <div style="display:flex; align-items:center; gap:8px">
+          <i data-lucide="book-open" style="width:16px;height:16px;color:#f59e0b"></i>
+          <div>
+            <h3 style="margin:0; font-size:14px; font-weight:600; color:#f1f5f9">Treasury of Scripture Knowledge</h3>
+            <p style="margin:0; font-size:12px; color:#94a3b8">Cross-References for <span style="font-weight:600; color:#f59e0b">Ruth 1:1</span> · 5 references</p>
+          </div>
+        </div>
+        <button style="padding:4px; border-radius:6px; color:#94a3b8; background:transparent; border:0; cursor:pointer"><i data-lucide="x" style="width:16px;height:16px"></i></button>
+      </div>
+      <div style="padding:16px; display:flex; flex-direction:column; gap:12px; max-height:384px; overflow-y:auto">
+        <sc-for list="{{ popoverRefs }}" as="r" hint-placeholder-count="4">
+          <div style="padding:12px; border-radius:8px; background:rgba(15,23,42,.6); border:1px solid #1e293b">
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:6px">
+              <div style="display:flex; align-items:center; gap:8px">
+                <span style="font-size:13px; font-weight:700; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.2); padding:2px 8px; border-radius:4px">{{ r.ref }}</span>
+                <span style="font-size:12px; font-family:'EB Garamond',serif; font-style:italic; color:#94a3b8">under “{{ r.clause }}”</span>
+              </div>
+              <button style="display:flex; align-items:center; gap:4px; font-size:12px; font-weight:600; color:#fbbf24; background:transparent; border:0; cursor:pointer">Jump to verse <i data-lucide="external-link" style="width:14px;height:14px"></i></button>
+            </div>
+            <p style="margin:0; font-size:15px; color:#f1f5f9; line-height:1.6">“{{ r.text }}”</p>
+          </div>
+        </sc-for>
+      </div>
+      <div style="padding:10px 16px; background:rgba(2,6,23,.8); border-top:1px solid #1e293b; display:flex; justify-content:space-between; align-items:center">
+        <span style="font-size:11px; color:#64748b; font-family:ui-monospace,monospace">TSK · public domain · installed 11.2 MB</span>
+        <span style="font-size:11px; color:#64748b">Esc to close</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="display:flex; flex-direction:column; gap:28px; padding:40px">
+  <div style="display:flex; align-items:baseline; gap:14px; font-family:'Inter'">
+    <span style="font-size:11px; font-weight:700; letter-spacing:.14em; color:#0a0a0b; background:#f59e0b; padding:4px 8px; border-radius:5px">1A</span>
+    <h2 style="margin:0; font-size:20px; font-weight:600; color:#f1f5f9">Exposition tab — fixed states, in situ</h2>
+    <span style="font-size:12px; color:#64748b">Recreated from <span style="font-family:ui-monospace,monospace">App.tsx · WorkspaceHeader.tsx · NavigationPane.tsx · ScripturePane.tsx · StudyPane.tsx</span></span>
+  </div>
+
+  <div id="1a" style="width:1760px; height:1000px; display:flex; flex-direction:column; background:#0A0A0B; color:#e2e8f0; overflow:hidden; border:1px solid #1e293b; border-radius:10px">
+
+    <header style="height:48px; background:#0F0F12; border-bottom:1px solid #1e293b; padding:0 16px; display:flex; align-items:center; justify-content:space-between; flex-shrink:0">
+      <div style="display:flex; align-items:center; gap:12px">
+        <button style="display:flex; padding:6px; border:0; background:transparent; border-radius:8px; color:#94a3b8; cursor:pointer"><i data-lucide="panel-left-close" style="width:16px;height:16px"></i></button>
+        <div style="display:flex; align-items:center; gap:8px">
+          <div style="width:24px; height:24px; border-radius:4px; background:#f59e0b; color:#000; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:12px">B</div>
+          <div>
+            <h1 style="margin:0; font-size:14px; font-weight:600; color:#f1f5f9; letter-spacing:-.01em; display:flex; align-items:center; gap:6px">Berean Workspace
+              <span style="font-size:10px; font-family:ui-monospace,monospace; color:#94a3b8; font-weight:400; border:1px solid #1e293b; background:#0f172a; padding:1px 4px; border-radius:4px">Acts 17:11</span>
+            </h1>
+            <p style="margin:0; font-size:10px; color:#64748b; font-weight:500">Expository Scripture Apparatus &amp; Interlinear Study</p>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1; max-width:448px; margin:0 16px">
+        <button style="width:100%; display:flex; align-items:center; justify-content:space-between; padding:6px 12px; background:#0f172a; color:#94a3b8; font-size:12px; border-radius:6px; border:1px solid #334155; cursor:pointer; font-family:'Inter'">
+          <span style="display:flex; align-items:center; gap:8px"><i data-lucide="search" style="width:14px;height:14px;color:#64748b"></i>
+            <span>Search or jump to... (e.g. <strong style="font-weight:600; color:#cbd5e1">Gen 1:1</strong>, <strong style="font-weight:600; color:#cbd5e1">John 1:1</strong>)</span></span>
+          <kbd style="display:inline-flex; padding:2px 6px; font-size:10px; font-family:ui-monospace,monospace; font-weight:600; color:#94a3b8; background:#1e293b; border:1px solid #334155; border-radius:4px">⌘K</kbd>
+        </button>
+      </div>
+      <div style="display:flex; align-items:center; gap:8px">
+        <button style="display:flex; align-items:center; gap:6px; padding:4px 10px; font-size:12px; font-weight:500; color:#f59e0b; background:rgba(245,158,11,.1); border-radius:6px; border:1px solid rgba(245,158,11,.2); cursor:pointer">
+          <div style="width:6px; height:6px; border-radius:9999px; background:#10b981"></div><span>Local IDB</span>
+        </button>
+        <button style="padding:6px; border:0; background:transparent; border-radius:6px; color:#94a3b8; cursor:pointer"><i data-lucide="keyboard" style="width:16px;height:16px"></i></button>
+        <button style="padding:6px; border:0; background:transparent; border-radius:6px; color:#94a3b8; cursor:pointer"><i data-lucide="panel-right-close" style="width:16px;height:16px"></i></button>
+      </div>
+    </header>
+
+    <main style="flex:1; display:flex; overflow:hidden; position:relative; min-height:0">
+
+      <aside style="width:320px; flex-shrink:0; border-right:1px solid #1e293b; background:#0F0F12; display:flex; flex-direction:column; overflow:hidden; color:#cbd5e1">
+        <div style="display:flex; align-items:center; border-bottom:1px solid #1e293b; padding:6px; flex-shrink:0">
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:4px; width:100%">
+            <button style="display:flex; align-items:center; justify-content:center; gap:4px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:600; background:rgba(30,41,59,.9); color:#f59e0b; border:1px solid #334155; cursor:pointer"><i data-lucide="book-open" style="width:14px;height:14px"></i><span>Canon</span></button>
+            <button style="display:flex; align-items:center; justify-content:center; gap:4px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="search" style="width:14px;height:14px"></i><span>Search</span></button>
+            <button style="display:flex; align-items:center; justify-content:center; gap:4px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="bookmark" style="width:14px;height:14px"></i><span>Saved</span></button>
+            <button style="display:flex; align-items:center; justify-content:center; gap:4px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="layers" style="width:14px;height:14px"></i><span>Bibles</span></button>
+          </div>
+        </div>
+        <div style="padding:10px; border-bottom:1px solid #1e293b; display:flex; flex-direction:column; gap:8px">
+          <div style="display:flex; align-items:center; gap:4px; background:#0f172a; padding:2px; border-radius:8px; font-size:11px; font-weight:500; color:#94a3b8; border:1px solid #1e293b">
+            <button style="flex:1; padding:4px 0; border-radius:4px; text-align:center; background:#1e293b; color:#f1f5f9; font-weight:600; border:0; cursor:pointer">All 66</button>
+            <button style="flex:1; padding:4px 0; border-radius:4px; text-align:center; background:transparent; color:#94a3b8; border:0; cursor:pointer">OT (39)</button>
+            <button style="flex:1; padding:4px 0; border-radius:4px; text-align:center; background:transparent; color:#94a3b8; border:0; cursor:pointer">NT (27)</button>
+          </div>
+          <div style="position:relative">
+            <i data-lucide="search" style="width:14px;height:14px;color:#64748b;position:absolute;left:10px;top:9px"></i>
+            <input type="text" placeholder="Filter book by name..." style="width:100%; box-sizing:border-box; font-size:12px; padding:6px 12px 6px 32px; background:#0f172a; border:1px solid #334155; border-radius:8px; outline:none; color:#e2e8f0; font-family:'Inter'">
+          </div>
+        </div>
+        <div style="flex:1; display:grid; grid-template-columns:repeat(12,1fr); min-height:0">
+          <div style="grid-column:span 7; border-right:1px solid #1e293b; overflow-y:auto">
+            <sc-for list="{{ books }}" as="b" hint-placeholder-count="9">
+              <div style="display:flex; align-items:center; justify-content:space-between; padding:8px 12px; font-size:12px; border-bottom:1px solid rgba(30,41,59,.6); color:#94a3b8">
+                <div style="overflow:hidden">
+                  <span style="display:block; color:{{ b.color }}; font-weight:{{ b.weight }}">{{ b.name }}</span>
+                  <span style="display:block; font-size:10px; font-weight:400; color:#64748b">{{ b.category }}</span>
+                </div>
+                <i data-lucide="chevron-right" style="width:14px;height:14px;color:#475569;flex-shrink:0"></i>
+              </div>
+            </sc-for>
+          </div>
+          <div style="grid-column:span 5; padding:8px; overflow-y:auto; background:rgba(10,10,11,.6)">
+            <div style="font-size:11px; font-weight:600; color:#64748b; text-transform:uppercase; letter-spacing:.08em; margin-bottom:8px; padding:0 4px">Ruth Chapters</div>
+            <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:4px">
+              <button style="height:28px; border-radius:6px; font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; background:#f59e0b; color:#000; border:0; cursor:pointer">1</button>
+              <button style="height:28px; border-radius:6px; font-size:12px; font-weight:500; display:flex; align-items:center; justify-content:center; background:#0f172a; color:#cbd5e1; border:1px solid rgba(51,65,85,.8); cursor:pointer">2</button>
+              <button style="height:28px; border-radius:6px; font-size:12px; font-weight:500; display:flex; align-items:center; justify-content:center; background:#0f172a; color:#cbd5e1; border:1px solid rgba(51,65,85,.8); cursor:pointer">3</button>
+              <button style="height:28px; border-radius:6px; font-size:12px; font-weight:500; display:flex; align-items:center; justify-content:center; background:#0f172a; color:#cbd5e1; border:1px solid rgba(51,65,85,.8); cursor:pointer">4</button>
+            </div>
+          </div>
+        </div>
+        <div style="padding:12px; border-top:1px solid #1e293b; background:rgba(2,6,23,.4); font-size:10px; display:flex; justify-content:space-between; align-items:center; flex-shrink:0">
+          <span style="color:#64748b; font-family:ui-monospace,monospace">Hotkeys: [1–3] Commentary</span>
+          <span style="color:#f59e0b; font-weight:700; font-family:ui-monospace,monospace">Acts 17:11</span>
+        </div>
+      </aside>
+
+      <section style="flex:1; min-width:0; display:flex; flex-direction:column; overflow:hidden; background:#070708; position:relative">
+        <div style="display:flex; align-items:center; justify-content:space-between; padding:10px 16px; background:#0A0A0B; border-bottom:1px solid #1e293b; flex-shrink:0; gap:8px">
+          <div style="display:flex; align-items:center; gap:12px">
+            <div style="display:flex; align-items:center; background:#0f172a; border-radius:8px; padding:2px; border:1px solid #334155">
+              <button style="padding:4px; border:0; background:transparent; color:#94a3b8; border-radius:4px; cursor:pointer"><i data-lucide="chevron-left" style="width:16px;height:16px"></i></button>
+              <span style="padding:0 10px; font-size:14px; font-family:'EB Garamond',serif; font-style:italic; color:#f1f5f9">Ruth 1</span>
+              <button style="padding:4px; border:0; background:transparent; color:#94a3b8; border-radius:4px; cursor:pointer"><i data-lucide="chevron-right" style="width:16px;height:16px"></i></button>
+            </div>
+            <div style="height:16px; width:1px; background:#1e293b"></div>
+            <div style="display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#e2e8f0; background:#0f172a; border:1px solid #334155; border-radius:8px; padding:6px 10px; cursor:pointer">
+              <span>ASV — American Standard Version</span><i data-lucide="chevron-down" style="width:13px;height:13px;color:#94a3b8"></i>
+            </div>
+            <div style="display:flex; align-items:center; gap:6px; padding:4px 8px; border-radius:6px; font-size:11px; font-family:ui-monospace,monospace; background:rgba(15,23,42,.9); border:1px solid #1e293b">
+              <span style="width:6px; height:6px; border-radius:9999px; background:#34d399"></span>
+              <span style="color:#6ee7b7; font-weight:600">API.Bible Live</span>
+            </div>
+          </div>
+          <div style="display:flex; align-items:center; gap:8px">
+            <button style="display:flex; align-items:center; gap:6px; padding:6px 10px; border-radius:8px; font-size:12px; font-weight:500; color:#94a3b8; background:transparent; border:1px solid #1e293b; cursor:pointer"><i data-lucide="columns-2" style="width:14px;height:14px"></i><span>Parallel</span></button>
+            <button style="padding:6px 8px; border-radius:8px; font-size:11px; font-family:ui-monospace,monospace; font-weight:700; background:rgba(245,158,11,.2); color:#fbbf24; border:1px solid rgba(245,158,11,.3); cursor:pointer">H/G#</button>
+            <div style="display:flex; align-items:center; background:#0f172a; border-radius:8px; padding:2px; border:1px solid #334155">
+              <button style="padding:4px; border:0; background:transparent; color:#94a3b8; cursor:pointer"><i data-lucide="minus" style="width:14px;height:14px"></i></button>
+              <span style="padding:0 4px; font-size:11px; font-family:ui-monospace,monospace; color:#94a3b8">18px</span>
+              <button style="padding:4px; border:0; background:transparent; color:#94a3b8; cursor:pointer"><i data-lucide="plus" style="width:14px;height:14px"></i></button>
+            </div>
+            <button style="padding:6px; border-radius:8px; color:#94a3b8; background:transparent; border:1px solid #1e293b; cursor:pointer"><i data-lucide="volume-2" style="width:16px;height:16px"></i></button>
+          </div>
+        </div>
+
+        <div style="flex:1; overflow-y:auto; padding:32px 32px 80px; max-width:1024px; margin:0 auto; width:100%; box-sizing:border-box">
+          <div style="text-align:center; margin-bottom:32px; border-bottom:1px solid rgba(30,41,59,.8); padding-bottom:24px">
+            <h1 style="margin:0; font-family:'EB Garamond',serif; font-size:36px; color:#f1f5f9; font-weight:700; letter-spacing:-.02em">Ruth</h1>
+            <p style="margin:4px 0 0; font-size:14px; text-transform:uppercase; letter-spacing:.18em; color:#f59e0b; font-weight:500">Chapter 1</p>
+            <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin-top:8px; font-size:12px; color:#94a3b8"><span>American Standard Version (1901)</span></div>
+          </div>
+
+          <div style="display:flex; flex-direction:column; gap:16px">
+            <div style="position:relative; border-radius:12px; padding:16px; background:rgba(15,23,42,.8); box-shadow:inset 0 0 0 1px rgba(245,158,11,.4)">
+              <div style="font-family:'EB Garamond',serif; font-size:18px; line-height:1.75; color:#f1f5f9">
+                <button style="display:inline-block; font-family:'Inter'; font-weight:700; font-size:12px; margin-right:8px; padding:2px 6px; border-radius:6px; background:#f59e0b; color:#000; border:0; cursor:pointer">1</button>
+                And it came to pass in the days when the judges<button style="font-size:11px; font-family:'Inter'; vertical-align:super; line-height:0; margin-left:2px; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); padding:1px 4px; border-radius:4px; cursor:pointer">H8199</button> judged, that there was a famine<button style="font-size:11px; font-family:'Inter'; vertical-align:super; line-height:0; margin-left:2px; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); padding:1px 4px; border-radius:4px; cursor:pointer">H7458</button> in the land. And a certain man of Beth-lehem-judah went to sojourn<button style="font-size:11px; font-family:'Inter'; vertical-align:super; line-height:0; margin-left:2px; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); padding:1px 4px; border-radius:4px; cursor:pointer">H1481</button> in the country of Moab, he, and his wife, and his two sons.
+              </div>
+              <div style="margin-top:10px; display:flex; align-items:center; justify-content:space-between; padding-top:6px; border-top:1px solid rgba(30,41,59,.8)">
+                <div style="display:flex; align-items:center; gap:6px">
+                  <button style="padding:4px; border-radius:4px; color:#94a3b8; background:transparent; border:0; font-size:11px; display:flex; align-items:center; gap:4px; cursor:pointer"><i data-lucide="highlighter" style="width:14px;height:14px"></i><span>Highlight</span></button>
+                  <button style="padding:4px; border-radius:4px; color:#94a3b8; background:transparent; border:0; font-size:11px; display:flex; align-items:center; gap:4px; cursor:pointer"><i data-lucide="message-square" style="width:14px;height:14px"></i><span>Note</span></button>
+                  <button style="padding:4px; border-radius:4px; color:#94a3b8; background:transparent; border:0; font-size:11px; display:flex; align-items:center; gap:4px; cursor:pointer"><i data-lucide="share-2" style="width:14px;height:14px"></i><span>Copy</span></button>
+                </div>
+                <span style="font-size:10px; font-family:ui-monospace,monospace; color:#64748b; font-weight:500">Ruth 1:1</span>
+              </div>
+            </div>
+
+            <div style="position:relative; border-radius:12px; padding:16px">
+              <div style="font-family:'EB Garamond',serif; font-size:18px; line-height:1.75; color:#f1f5f9">
+                <button style="display:inline-block; font-family:'Inter'; font-weight:700; font-size:12px; margin-right:8px; padding:2px 6px; border-radius:6px; background:#1e293b; color:rgba(245,158,11,.8); border:1px solid #334155; cursor:pointer">2</button>
+                And the name of the man was Elimelech, and the name of his wife Naomi, and the name of his two sons Mahlon and Chilion, Ephrathites of Beth-lehem-judah. And they came into the country of Moab, and continued there.
+              </div>
+            </div>
+
+            <div style="position:relative; border-radius:12px; padding:16px">
+              <div style="font-family:'EB Garamond',serif; font-size:18px; line-height:1.75; color:#f1f5f9">
+                <button style="display:inline-block; font-family:'Inter'; font-weight:700; font-size:12px; margin-right:8px; padding:2px 6px; border-radius:6px; background:#1e293b; color:rgba(245,158,11,.8); border:1px solid #334155; cursor:pointer">3</button>
+                And Elimelech, Naomi's husband, died; and she was left, and her two sons.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="position:absolute; bottom:16px; left:50%; transform:translateX(-50%); background:rgba(15,23,42,.9); border:1px solid #334155; padding:6px 16px; border-radius:9999px; display:flex; align-items:center; gap:16px; font-size:12px; color:#94a3b8">
+          <span style="display:flex; align-items:center; gap:6px; font-weight:500; color:#cbd5e1"><span style="width:8px; height:8px; border-radius:9999px; background:#10b981"></span>Synchronized</span>
+          <span style="height:12px; width:1px; background:#334155"></span>
+          <span>Verse 1 selected</span>
+          <span style="height:12px; width:1px; background:#334155"></span>
+          <span style="color:#f59e0b; font-family:ui-monospace,monospace; font-size:11px">[1–3] Commentaries</span>
+        </div>
+      </section>
+
+      <aside style="width:384px; flex-shrink:0; border-left:1px solid #1e293b; background:#0F0F12; display:flex; flex-direction:column; overflow:hidden; color:#cbd5e1">
+        <div style="display:flex; align-items:center; border-bottom:1px solid #1e293b; padding:6px; flex-shrink:0">
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:4px; width:100%">
+            <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:600; background:rgba(30,41,59,.9); color:#f59e0b; border:1px solid #334155; cursor:pointer"><i data-lucide="book-open" style="width:14px;height:14px;color:#f59e0b"></i><span>Exposition</span></button>
+            <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="languages" style="width:14px;height:14px;color:#60a5fa"></i><span>Strong's</span></button>
+            <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="git-fork" style="width:14px;height:14px;color:#c084fc"></i><span>TSK Refs</span></button>
+            <button style="display:flex; align-items:center; justify-content:center; gap:6px; padding:6px 8px; border-radius:8px; font-size:12px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer"><i data-lucide="pen-square" style="width:14px;height:14px;color:#34d399"></i><span>Notebook</span></button>
+          </div>
+        </div>
+
+        <div style="padding:8px 14px; background:rgba(15,23,42,.9); border-bottom:1px solid #1e293b; display:flex; align-items:center; justify-content:space-between; gap:8px; flex-shrink:0">
+          <div style="display:flex; align-items:center; gap:8px; min-width:0">
+            <span style="font-size:14px; font-weight:700; color:#f59e0b; font-family:'EB Garamond',serif; letter-spacing:.02em">Focus: Ruth 1:1</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:4px; background:#020617; padding:4px; border-radius:8px; border:1px solid #1e293b; flex-shrink:0">
+            <button style="padding:2px 8px; font-size:11px; font-weight:600; color:#cbd5e1; background:transparent; border:0; border-radius:4px; cursor:pointer">Sans</button>
+            <div style="width:1px; height:12px; background:#1e293b"></div>
+            <button style="width:20px; height:20px; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:#94a3b8; background:transparent; border:0; border-radius:4px; cursor:pointer">A-</button>
+            <span style="font-size:11px; font-family:ui-monospace,monospace; color:#fbbf24; font-weight:600; padding:0 4px; min-width:28px; text-align:center">15px</span>
+            <button style="width:20px; height:20px; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:#94a3b8; background:transparent; border:0; border-radius:4px; cursor:pointer">A+</button>
+          </div>
+        </div>
+
+        <div style="flex:1; overflow-y:auto; padding:16px; display:flex; flex-direction:column; gap:16px">
+          <div style="display:flex; align-items:center; gap:4px; padding:4px; background:#0f172a; border-radius:8px; font-size:12px; border:1px solid #1e293b">
+            <button style="flex:1; padding:4px 6px; border-radius:6px; font-size:11px; font-weight:600; background:#1e293b; color:#f1f5f9; border:0; cursor:pointer">All (3)</button>
+            <button style="flex:1; padding:4px 6px; border-radius:6px; font-size:11px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer">Gill (1)</button>
+            <button style="flex:1; padding:4px 6px; border-radius:6px; font-size:11px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer">Henry (2)</button>
+            <button style="flex:1; padding:4px 6px; border-radius:6px; font-size:11px; font-weight:500; background:transparent; color:#94a3b8; border:0; cursor:pointer">JFB (3)</button>
+          </div>
+
+          <div style="padding:16px; border-radius:12px; border:1px solid #1e293b; background:rgba(15,23,42,.6); display:flex; flex-direction:column; gap:8px">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:8px; border-bottom:1px solid #1e293b; padding-bottom:8px">
+              <div>
+                <h4 style="margin:0; font-size:14px; font-weight:700; color:#f1f5f9">Dr. John Gill, D.D.</h4>
+                <span style="display:inline-block; margin-top:4px; font-size:10px; text-transform:uppercase; font-family:ui-monospace,monospace; color:#fbbf24; background:rgba(245,158,11,.1); padding:1px 6px; border-radius:4px; border:1px solid rgba(245,158,11,.2)">Exposition of the Entire Bible • 1697–1771</span>
+              </div>
+              <span style="flex-shrink:0; font-size:10px; font-family:ui-monospace,monospace; color:#94a3b8; background:#020617; border:1px solid #334155; padding:3px 7px; border-radius:9999px">no entry</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:10px; padding-top:6px">
+              <div style="display:flex; gap:10px; align-items:flex-start">
+                <i data-lucide="file-search" style="width:16px;height:16px;color:#64748b;flex-shrink:0;margin-top:2px"></i>
+                <p style="margin:0; font-size:15px; line-height:1.6; color:#cbd5e1">No entry at <strong style="color:#f1f5f9; font-weight:600">Ruth 1:1</strong> in this corpus. Gill's exposition is indexed at verse level for this book, and the installed edition begins its treatment of the narrative at <strong style="color:#f1f5f9; font-weight:600">Ruth 1:2</strong>.</p>
+              </div>
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap">
+                <button style="display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#fbbf24; background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.25); padding:5px 10px; border-radius:8px; cursor:pointer">Nearest entry: Ruth 1:2 <i data-lucide="arrow-right" style="width:13px;height:13px"></i></button>
+                <span style="font-size:11px; color:#64748b">Indexed verses in Ruth 1: 2, 4, 6, 8, 14, 16, 20</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:16px; border-radius:12px; border:1px solid #1e293b; background:rgba(15,23,42,.6); display:flex; flex-direction:column; gap:8px">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:8px; border-bottom:1px solid #1e293b; padding-bottom:8px">
+              <div>
+                <h4 style="margin:0; font-size:14px; font-weight:700; color:#f1f5f9">Rev. Matthew Henry</h4>
+                <span style="display:inline-block; margin-top:4px; font-size:10px; text-transform:uppercase; font-family:ui-monospace,monospace; color:#fbbf24; background:rgba(245,158,11,.1); padding:1px 6px; border-radius:4px; border:1px solid rgba(245,158,11,.2)">Commentary on the Whole Bible • 1662–1714</span>
+              </div>
+              <span style="flex-shrink:0; font-size:10px; font-family:ui-monospace,monospace; color:#e9d5ff; background:rgba(88,28,135,.5); border:1px solid rgba(147,51,234,.4); padding:3px 7px; border-radius:9999px">on Ruth 1:1–5</span>
+            </div>
+            <div style="font-size:15px; line-height:1.7; color:#f1f5f9; padding-top:6px; display:flex; flex-direction:column; gap:10px">
+              <p style="margin:0">The scope of this passage is Elimelech's removal from Bethlehem into Moab, and the sorrows that followed it. Observe the occasion: <em style="color:#cbd5e1">a famine in the land</em> — in the land of promise, the land that flowed with milk and honey; God can turn a fruitful land into barrenness for the iniquity of them that dwell therein.</p>
+              <div style="display:flex; align-items:center; gap:8px; padding-top:2px; border-top:1px solid rgba(30,41,59,.7); padding-top:8px">
+                <span style="font-size:11px; color:#64748b">Passage note covers vv. 1–5 in the source edition.</span>
+                <button style="font-size:11px; font-weight:600; color:#94a3b8; background:transparent; border:0; padding:0; cursor:pointer; text-decoration:underline">Show full passage</button>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding:16px; border-radius:12px; border:1px dashed #334155; background:rgba(2,6,23,.5); display:flex; flex-direction:column; gap:10px">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:8px">
+              <div>
+                <h4 style="margin:0; font-size:14px; font-weight:700; color:#94a3b8">Jamieson, Fausset &amp; Brown</h4>
+                <span style="display:inline-block; margin-top:4px; font-size:10px; text-transform:uppercase; font-family:ui-monospace,monospace; color:#64748b; background:#0f172a; padding:1px 6px; border-radius:4px; border:1px solid #1e293b">Critical, Experimental &amp; Practical • 1871</span>
+              </div>
+              <span style="flex-shrink:0; font-size:10px; font-family:ui-monospace,monospace; color:#94a3b8; background:#020617; border:1px solid #334155; padding:3px 7px; border-radius:9999px">not installed</span>
+            </div>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:#94a3b8">This corpus is not installed on this device. Nothing is shown in its place.</p>
+            <div style="display:flex; align-items:center; gap:10px">
+              <button style="display:flex; align-items:center; gap:6px; font-size:12px; font-weight:600; color:#0a0a0b; background:#f59e0b; border:0; padding:6px 12px; border-radius:8px; cursor:pointer"><i data-lucide="download-cloud" style="width:14px;height:14px"></i>Install module</button>
+              <span style="font-size:11px; font-family:ui-monospace,monospace; color:#64748b">18.4 MB · public domain</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding:8px 16px; background:rgba(2,6,23,.6); border-top:1px solid #1e293b; display:flex; align-items:center; justify-content:space-between; flex-shrink:0">
+          <button style="display:flex; align-items:center; gap:6px; font-size:12px; color:#94a3b8; background:transparent; border:0; cursor:pointer"><i data-lucide="cloud" style="width:14px;height:14px;color:#34d399"></i><span style="font-weight:500">Local Storage (IndexedDB)</span></button>
+          <button style="padding:4px; border:0; background:transparent; color:#64748b; cursor:pointer"><i data-lucide="refresh-cw" style="width:14px;height:14px"></i></button>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <div style="display:flex; gap:28px; align-items:flex-start; flex-wrap:wrap">
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <div style="display:flex; align-items:baseline; gap:14px">
+        <span style="font-size:11px; font-weight:700; letter-spacing:.14em; color:#0a0a0b; background:#f59e0b; padding:4px 8px; border-radius:5px">1B</span>
+        <h2 style="margin:0; font-size:20px; font-weight:600; color:#f1f5f9">Module manager — corpora &amp; translations</h2>
+      </div>
+      <div id="1b" style="width:420px; background:#0F0F12; border:1px solid #1e293b; border-radius:10px; overflow:hidden; display:flex; flex-direction:column">
+        <div style="padding:12px 14px; border-bottom:1px solid #1e293b; display:flex; align-items:center; justify-content:space-between">
+          <span style="font-size:11px; font-weight:600; color:#94a3b8; text-transform:uppercase; letter-spacing:.08em">Modules</span>
+          <span style="font-size:10px; font-family:ui-monospace,monospace; color:#64748b">124.6 MB installed</span>
+        </div>
+        <div style="padding:14px; display:flex; flex-direction:column; gap:16px">
+          <div style="display:flex; flex-direction:column; gap:8px">
+            <span style="font-size:10px; font-weight:700; color:#64748b; text-transform:uppercase; letter-spacing:.1em">Translations</span>
+            <sc-for list="{{ translations }}" as="t" hint-placeholder-count="4">
+              <div style="padding:10px 12px; border-radius:10px; border:1px solid {{ t.border }}; background:{{ t.bg }}; display:flex; align-items:center; justify-content:space-between; gap:10px; opacity:{{ t.opacity }}">
+                <div style="min-width:0">
+                  <div style="display:flex; align-items:center; gap:6px">
+                    <span style="font-size:12px; font-weight:700; color:{{ t.nameColor }}">{{ t.id }}</span>
+                    <span style="font-size:9px; font-family:ui-monospace,monospace; text-transform:uppercase; color:{{ t.tagColor }}; background:{{ t.tagBg }}; border:1px solid {{ t.tagBorder }}; padding:1px 5px; border-radius:4px">{{ t.tag }}</span>
+                  </div>
+                  <div style="font-size:11px; color:#94a3b8; margin-top:2px">{{ t.name }}</div>
+                </div>
+                <span style="flex-shrink:0; font-size:10px; font-family:ui-monospace,monospace; color:{{ t.stateColor }}">{{ t.state }}</span>
+              </div>
+            </sc-for>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:8px">
+            <span style="font-size:10px; font-weight:700; color:#64748b; text-transform:uppercase; letter-spacing:.1em">Apparatus</span>
+            <sc-for list="{{ apparatus }}" as="a" hint-placeholder-count="4">
+              <div style="padding:10px 12px; border-radius:10px; border:1px solid #1e293b; background:rgba(15,23,42,.6); display:flex; align-items:center; justify-content:space-between; gap:10px">
+                <div style="min-width:0">
+                  <div style="font-size:12px; font-weight:700; color:#f1f5f9">{{ a.name }}</div>
+                  <div style="font-size:11px; color:#64748b; margin-top:2px; font-family:ui-monospace,monospace">{{ a.meta }}</div>
+                </div>
+                <span style="flex-shrink:0; font-size:10px; font-family:ui-monospace,monospace; color:{{ a.stateColor }}; background:{{ a.stateBg }}; border:1px solid {{ a.stateBorder }}; padding:3px 8px; border-radius:9999px">{{ a.state }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <div style="display:flex; align-items:baseline; gap:14px">
+        <span style="font-size:11px; font-weight:700; letter-spacing:.14em; color:#0a0a0b; background:#f59e0b; padding:4px 8px; border-radius:5px">1C</span>
+        <h2 style="margin:0; font-size:20px; font-weight:600; color:#f1f5f9">Fix spec — for Claude Code</h2>
+      </div>
+      <div id="1c" style="width:1280px; background:#0F0F12; border:1px solid #1e293b; border-radius:10px; padding:28px 32px; display:flex; flex-direction:column; gap:22px; font-size:14px; line-height:1.6; color:#cbd5e1">
+        <sc-for list="{{ spec }}" as="s" hint-placeholder-count="5">
+          <div style="display:flex; flex-direction:column; gap:8px; padding-bottom:20px; border-bottom:1px solid rgba(30,41,59,.7)">
+            <div style="display:flex; align-items:baseline; gap:10px">
+              <span style="font-size:10px; font-family:ui-monospace,monospace; font-weight:700; color:#0a0a0b; background:#f59e0b; padding:2px 6px; border-radius:4px">{{ s.tag }}</span>
+              <h3 style="margin:0; font-size:16px; font-weight:600; color:#f1f5f9">{{ s.title }}</h3>
+              <span style="font-size:11px; font-family:ui-monospace,monospace; color:#64748b">{{ s.file }}</span>
+            </div>
+            <p style="margin:0"><strong style="color:#f87171; font-weight:600">Cause.</strong> {{ s.cause }}</p>
+            <p style="margin:0"><strong style="color:#34d399; font-weight:600">Fix.</strong> {{ s.fix }}</p>
+            <p style="margin:0; font-size:13px; color:#94a3b8"><strong style="color:#cbd5e1; font-weight:600">Accept when.</strong> {{ s.accept }}</p>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1840,&quot;height&quot;:1120}}">
+class Component extends DCLogic {
+  componentDidMount() { this.icons(); }
+  componentDidUpdate() { this.icons(); }
+  icons() {
+    const go = () => { try { window.lucide && window.lucide.createIcons(); } catch (e) {} };
+    go(); setTimeout(go, 300); setTimeout(go, 1200);
+  }
+  renderVals() {
+    const dim = (n, c, cur) => ({
+      name: n, category: c,
+      color: cur ? '#f59e0b' : '#94a3b8',
+      weight: cur ? 600 : 400
+    });
+    return {
+      chapterTerms: [
+        { num: 'H8199', lemma: 'שָׁפַט', translit: 'shaphat', count: 2 },
+        { num: 'H1481', lemma: 'גּוּר', translit: 'gur', count: 3 },
+        { num: 'H7458', lemma: 'רָעָב', translit: 'raab', count: 2 },
+        { num: 'H802', lemma: 'אִשָּׁה', translit: 'ishshah', count: 6 },
+        { num: 'H1121', lemma: 'בֵּן', translit: 'ben', count: 5 },
+        { num: 'H7725', lemma: 'שׁוּב', translit: 'shub', count: 12 }
+      ],
+      tskGroups: [
+        { clause: 'when the judges ruled', refs: [
+          { ref: 'Judges 2:16', text: 'Nevertheless the LORD raised up judges, which delivered them out of the hand of those that spoiled them.' },
+          { ref: 'Judges 17:8', text: 'And the man departed out of the city from Bethlehem-judah to sojourn where he could find a place.' }
+        ]},
+        { clause: 'there was a famine in the land', refs: [
+          { ref: 'Genesis 12:10', text: 'And there was a famine in the land: and Abram went down into Egypt to sojourn there; for the famine was grievous in the land.' },
+          { ref: 'Genesis 26:1', text: 'And there was a famine in the land, beside the first famine that was in the days of Abraham.' },
+          { ref: '2 Kings 8:1', text: 'Arise, and go thou and thine house, and sojourn wheresoever thou canst sojourn: for the LORD hath called for a famine.' }
+        ]}
+      ],
+      popoverRefs: [
+        { ref: 'Judges 2:16', clause: 'when the judges ruled', text: 'Nevertheless the LORD raised up judges, which delivered them out of the hand of those that spoiled them.' },
+        { ref: 'Judges 17:8', clause: 'when the judges ruled', text: 'And the man departed out of the city from Bethlehem-judah to sojourn where he could find a place.' },
+        { ref: 'Genesis 12:10', clause: 'a famine in the land', text: 'And there was a famine in the land: and Abram went down into Egypt to sojourn there; for the famine was grievous in the land.' },
+        { ref: 'Genesis 26:1', clause: 'a famine in the land', text: 'And there was a famine in the land, beside the first famine that was in the days of Abraham.' },
+        { ref: '2 Kings 8:1', clause: 'a famine in the land', text: 'Arise, and go thou and thine house, and sojourn wheresoever thou canst sojourn: for the LORD hath called for a famine.' }
+      ],
+      books: [
+        dim('Genesis', 'Law'), dim('Exodus', 'Law'), dim('Leviticus', 'Law'),
+        dim('Numbers', 'Law'), dim('Deuteronomy', 'Law'), dim('Joshua', 'History'),
+        dim('Judges', 'History'), dim('Ruth', 'History', true),
+        dim('1 Samuel', 'History'), dim('2 Samuel', 'History'), dim('1 Kings', 'History')
+      ],
+      translations: [
+        { id: 'NASB', name: 'New American Standard Bible (2020)', tag: 'default', tagColor: '#0a0a0b', tagBg: '#f59e0b', tagBorder: '#f59e0b',
+          state: 'live · API.Bible', stateColor: '#6ee7b7', border: 'rgba(245,158,11,.35)', bg: 'rgba(245,158,11,.06)', nameColor: '#f1f5f9', opacity: 1 },
+        { id: 'KJV', name: 'King James Version (1769)', tag: "strong's tagged", tagColor: '#fbbf24', tagBg: 'rgba(245,158,11,.15)', tagBorder: 'rgba(245,158,11,.3)',
+          state: 'installed · 4.1 MB', stateColor: '#94a3b8', border: '#1e293b', bg: 'rgba(15,23,42,.6)', nameColor: '#f1f5f9', opacity: 1 },
+        { id: 'ASV', name: 'American Standard Version (1901)', tag: 'public domain', tagColor: '#94a3b8', tagBg: '#0f172a', tagBorder: '#1e293b',
+          state: 'installed · 3.9 MB', stateColor: '#94a3b8', border: '#1e293b', bg: 'rgba(15,23,42,.6)', nameColor: '#f1f5f9', opacity: 1 },
+        { id: 'NKJV', name: 'New King James Version', tag: 'license required', tagColor: '#94a3b8', tagBg: '#0f172a', tagBorder: '#334155',
+          state: 'unavailable', stateColor: '#64748b', border: '#1e293b', bg: 'rgba(2,6,23,.5)', nameColor: '#94a3b8', opacity: 0.55 },
+        { id: 'NLT', name: 'New Living Translation', tag: 'license required', tagColor: '#94a3b8', tagBg: '#0f172a', tagBorder: '#334155',
+          state: 'unavailable', stateColor: '#64748b', border: '#1e293b', bg: 'rgba(2,6,23,.5)', nameColor: '#94a3b8', opacity: 0.55 }
+      ],
+      apparatus: [
+        { name: "Gill — Exposition of the Entire Bible", meta: '31,102 entries · verse-level · 42.7 MB',
+          state: 'installed', stateColor: '#6ee7b7', stateBg: 'rgba(16,185,129,.1)', stateBorder: 'rgba(16,185,129,.25)' },
+        { name: 'Henry — Commentary on the Whole Bible', meta: '2,461 passage notes · passage-level · 28.9 MB',
+          state: 'installed', stateColor: '#6ee7b7', stateBg: 'rgba(16,185,129,.1)', stateBorder: 'rgba(16,185,129,.25)' },
+        { name: 'Jamieson, Fausset & Brown', meta: 'verse + passage · 18.4 MB',
+          state: 'install', stateColor: '#fbbf24', stateBg: 'rgba(245,158,11,.1)', stateBorder: 'rgba(245,158,11,.3)' },
+        { name: 'Treasury of Scripture Knowledge', meta: '31,102 verses · ~572k refs · 11.2 MB',
+          state: 'install', stateColor: '#fbbf24', stateBg: 'rgba(245,158,11,.1)', stateBorder: 'rgba(245,158,11,.3)' },
+        { name: "Strong's Lexicon + tagged KJV underlay", meta: '8,674 H · 5,624 G · 36.1 MB',
+          state: 'install', stateColor: '#fbbf24', stateBg: 'rgba(245,158,11,.1)', stateBorder: 'rgba(245,158,11,.3)' }
+      ],
+      spec: [
+        {
+          tag: 'BUG 1', title: 'Commentaries invent content when no entry exists', file: 'src/data/commentariesDataset.ts:201',
+          cause: "getCommentaryForVerse() falls through to a template generator (\"Dr. John Gill examines this sacred passage in its canonical context…\") whenever COMMENTARIES_DATA has no match. COMMENTARIES_DATA holds only 11 entries: Gen 1:1, Gen 1:2, John 1:1, John 3:16, Ps 23:1, Rom 8:28. Every other verse in the Bible — including the Ruth 1:1 in the screenshot — renders fabricated prose attributed to a real author.",
+          fix: "Change the return type to CommentaryEntry | null and delete the generator branch entirely (the `let content = ''` block through the synthetic return). Return null on miss. Load real corpora from an indexed store instead of a TS array literal: an IndexedDB object store `commentaries` keyed [source, book, chapter, verse] with a second index on [source, book, chapter, startVerse, endVerse] for passage-scoped notes, populated from a downloaded module. Add getCommentaryForRef(book, chapter, verse, source) → { entry, scope: 'verse' | 'passage' | null, coveredRange, nearestVerse, indexedVerses }.",
+          accept: "No string in the shipped bundle attributes generated text to Gill, Henry, or JFB. A verse with no entry renders the empty state in 1a, never prose."
+        },
+        {
+          tag: 'BUG 2', title: 'Source filter says "All (4)" but there are three sources', file: 'src/components/StudyPane.tsx (commentary pills), NavigationPane.tsx (footer)',
+          cause: "The pill labels are hardcoded: 'All (4)', 'John Gill (1)', 'M. Henry (2)', 'JFB (3)'. The parenthetical is a keyboard-shortcut hint, but it reads as a result count, and 'All (4)' implies a fourth commentary that does not exist. The footer hint 'Hotkeys: [1-4] Commentary' and the floating pill '[1-4] Commentaries' say the same.",
+          fix: "Derive the label list from COMMENTARY_METADATA keys. Render the shortcut as a visually distinct <kbd> rather than a parenthetical, and put the actual entry count for the current verse in the pill (e.g. \"Gill · no entry\", \"Henry · 1\"). Regenerate the two hotkey strings from the source count: [1–3] plus [4] = All if you keep All on 4, but then label it 'All' with no number.",
+          accept: "Source count in every label matches COMMENTARY_METADATA.length. No literal '(4)' remains."
+        },
+        {
+          tag: 'BUG 3', title: 'Commentary granularity is invisible, so passage notes look like wrong answers', file: 'src/data/commentariesDataset.ts, StudyPane.tsx',
+          cause: 'CommentaryEntry has a single `verse: number`. Public-domain Gill is verse-indexed but Henry and JFB are largely passage- and chapter-scoped, so a Henry note on Ruth 1:1–5 either has to be duplicated onto five verse keys or dropped. Both look like bugs to the reader.',
+          fix: "Extend the schema to { book, chapter, startVerse, endVerse, scope: 'verse' | 'passage' | 'chapter' } and index on the range. In StudyPane, render a scope chip on every commentary card header — 'on Ruth 1:1' for verse scope, 'on Ruth 1:1–5' for passage, 'on Ruth 1' for chapter (see 1a). A passage note stays visible while the focus verse is inside its range; the chip is what tells the user why.",
+          accept: 'Every commentary card shows a scope chip whose range contains the focus verse. Ruth 1:1 with a Henry passage note on vv. 1–5 shows the note with chip "on Ruth 1:1–5", not an empty state.'
+        },
+        {
+          tag: 'BUG 4', title: "Strong's badges disappear as soon as live text loads", file: 'src/services/apiBibleService.ts:60, ScripturePane.tsx (renderSegments)',
+          cause: "fetchChapterVerses maps API.Bible verses to `segments: [{ text: v.text }]` — one segment, no `strongs` field. ScripturePane's local baseline (getVersesForChapter) does carry tagged segments, so badges paint for a frame and then vanish when the fetch resolves and setPrimaryVerses replaces them. The H/G# toggle stays lit, which makes it look like the toggle is broken.",
+          fix: "Stop treating tagging as a property of the display text. Load a Strong's-tagged KJV underlay module (verse → [{ word, strongs, morph }]) and align it to the display translation per verse: render display words, and attach badges from the underlay by word index with a lenient aligner (normalise case/punctuation, skip supplied words). Keep the underlay in IndexedDB; key it [book, chapter, verse]. When no underlay row exists for a verse, render the text with no badges and disable the H/G# toggle for that chapter with a tooltip stating why.",
+          accept: 'Ruth 1:1 shows badges on judges/famine/sojourn with live API.Bible text loaded, and the toggle is disabled — not silently inert — where the underlay is missing.'
+        },
+        {
+          tag: 'BUG 5', title: "Unknown Strong's numbers get a fabricated lexicon entry", file: 'src/components/ScripturePane.tsx (handleStrongsClick), StudyPane.tsx',
+          cause: "On a lexicon miss, handleStrongsClick synthesises an entry with lemma 'עִבְרִית' / 'Ἑλληνικά' (literally the words \"Hebrew\"/\"Greek\"), pronunciation 'lexicon-ref', definition \"Strong's Concordance term {n} in original canonical biblical manuscript\", and occurrences: 12 — a hardcoded number presented as data. Separately, \"Lexicon terms in this Chapter\" renders Object.values(STRONGS_LEXICON).slice(0, 8), which is the first eight entries of the whole dictionary regardless of chapter.",
+          fix: "Delete the synthetic entry. setSelectedStrongs(null) on a miss and render an empty state naming the number that was not found, with the lexicon module's install state. Replace the slice(0, 8) list with the distinct Strong's numbers actually present in the current chapter's underlay rows, sorted by frequency in that chapter, with real counts.",
+          accept: "No entry in the Strong's tab has a value not read from the lexicon module. The chapter term list changes when you change chapter."
+        },
+        {
+          tag: 'BUG 6', title: 'TSK fabricates cross-references, including self-references', file: 'src/data/tskCrossReferences.ts:100',
+          cause: "TSK_CROSS_REFERENCES has ~18 verse keys. getTskForVerse's fallback returns three invented rows: a self/previous-chapter reference built by string arithmetic (`${book} ${chapter > 1 ? chapter - 1 : chapter}:${verse}` — at Ruth 1:1 that yields the reference \"Ruth 1:1\" pointing at itself, with the preview text \"Contextual study continuation from Ruth chapter 1.\"), plus a hardcoded Ps 119:105 and 2 Tim 3:16 for every verse in Scripture. The 'Theme' line is likewise invented. Both the TSK Refs tab and the verse-number popover show these.",
+          fix: "Return TskReference[] (possibly empty) and delete the fallback. Import the real public-domain TSK (31,102 verses, ~572k references) into IndexedDB keyed [book, chapter, verse]; drop the `theme` field or populate it only where the source has one. Render an empty state in the tab and suppress the popover entirely when a verse has no references. Also normalise book naming: keys use 'Psalms' while ref strings say 'Psalm', and the popover's jump regex fails on names like 'Song of Solomon' — resolve refs through the BIBLE_BOOKS table, not a regex.",
+          accept: 'No reference in the TSK tab points at the verse in focus. Clicking a verse number with no TSK data opens nothing rather than a popover of generic references.'
+        },
+        {
+          tag: 'BUG 7', title: 'NASB label does not match the text being served', file: 'server.ts:78, src/data/scriptureDataset.ts:5',
+          cause: "TRANSLATION_TO_BIBLE_ID maps 'NASB' → '06125adad2d5898a-01', which is the ASV Bible ID (comment: \"uses ASV as foundational text\"). NKJV → KJV id, NLT → WEB id, same pattern. Meanwhile TRANSLATION_CONFIG.NASB.name says 'New American Standard Bible (1995)' and hasStrongs: true, the chapter header prints that name, and NavigationPane's copy says \"ships with NASB pre-installed\". So the workspace confidently labels ASV text as NASB 1995. That is the versioning bug.",
+          fix: "You have an API.Bible key with NASB 2020 entitled, so serve it for real: resolve Bible IDs at boot by GET /v1/bibles and matching abbreviation (NASB2020), cache the id, and fail loudly — 502 with a clear message — rather than substituting another Bible when a requested translation has no id. Set TRANSLATION_CONFIG.NASB.name to 'New American Standard Bible (2020)' and make NASB the default primaryTranslation in useBereanStore. Remove the NKJV → KJV and NLT → WEB aliases; keep those two listed in the module manager as greyed 'license required' rows (see 1b) and refuse to select them. hasStrongs must be false for NASB — its badges come from the KJV underlay of BUG 4, not from the NASB text.",
+          accept: "The chapter header's translation name is derived from the same id the text was fetched with. Requesting an unlicensed translation returns an error the UI surfaces; it never silently renders a different Bible. Default load is NASB 2020, labelled 2020."
+        },
+        {
+          tag: 'BUG 8', title: 'Two competing keyboard handlers for the 1–4 shortcuts', file: 'src/App.tsx (global keydown), src/components/StudyPane.tsx (second keydown)',
+          cause: "Both App and StudyPane register window keydown listeners that call setActiveCommentarySource for '1'–'4'. StudyPane's copy also lacks the e.preventDefault() the App handler has for other keys. It is harmless today because both set the same value, but it is a duplicate listener that will diverge the moment either changes — and the source list it maps to is the wrong length (BUG 2).",
+          fix: 'Delete the StudyPane useEffect and keep one handler in App, generated from the commentary source list rather than literal key checks.',
+          accept: 'One window keydown listener for commentary shortcuts.'
+        },
+        {
+          tag: 'NOTE', title: 'scrollIntoView on every activeVerse change fights the user', file: 'src/components/ScripturePane.tsx',
+          cause: 'The effect on [activeVerse, currentChapter, currentBook] smooth-scrolls the focused verse to centre. Since clicking any verse sets activeVerse, clicking a verse you are already reading yanks the column. Not one of the four reported bugs, but it will read as one.',
+          fix: 'Only scroll when the verse change came from navigation (command palette, TSK jump, chapter change) — track the source of the change in the store rather than reacting to activeVerse itself.',
+          accept: 'Clicking a visible verse does not move the scroll position.'
+        }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
